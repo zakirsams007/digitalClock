@@ -39,6 +39,36 @@ button{
   border: 0px;
 
 }
+nav{
+  
+  background: #ffffff;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgb(0, 0, 0.6);
+
+}
+.nav1{
+  width: 100vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav1 h2{
+  margin: auto;
+  margin-top: 20px;
+  color: #1b1b1b;
+}
+a{
+  text-decoration: none;
+}
+
+
+
 body, button#change{
   transition: all 0.4s ease-in-out;
 }
