@@ -10,15 +10,14 @@
 
 nav{
   
-    background: #ffffff;
+    background-color: #ea748e;
     height: 4rem;
     justify-content: center;
     align-items: center;
     box-shadow: 0 5px 15px rgb(0, 0, 0.6);
-  
-    
-
 }
+
+
   .nav1{
     width: 100vw;
     max-width: 620px;
@@ -32,7 +31,7 @@ nav{
   .nav1 h2{
     margin: auto;
     margin-top: 20px;
-    color: #1b1b1b;
+    color: #cace91;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
   }
@@ -60,7 +59,7 @@ nav{
       border-radius: 1em;
       height: 380px;
       width: 400;
-      background-color: #100225;
+      background-color: #cace91;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -79,7 +78,7 @@ nav{
 
   .btn{
     font-family: 'Orbitron', sans-serif;
-    background-color: #64278f;
+    background-color: #ea748e;
     color: #dedbe1;
     border: solid black 0.6px;
     width: 100%;
