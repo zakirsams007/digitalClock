@@ -1,0 +1,302 @@
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    /* border: 3px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*---------------- HEADER--------------- */
+
+header{
+ 
+    height: 65px;
+}
+.navbar{
+  
+    height: 100%;
+    width: 100%;
+}
+
+.navbar ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 17px;
+}
+
+.navbar ul li {
+    margin-left: 17px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+/*------------- CIRCLE SHADOW EFFECT------------ */
+
+.circle-shadow{
+    
+    height: 35px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-shadow:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+ 
+.menu-icon, .user-icon span{
+    font-size: 18px;
+}
+
+.user-icon{
+    background-color: rgb(11, 197, 221);
+    height: 25px;
+    width: 25px;
+    border-radius: 55%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.user-icon span{
+    color: white;
+}
+
+/*----------------------- MAIN CONTENT------------ */
+
+.main-content{
+    /* border: 1px solid black; */
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper{
+    /* border: 1px solid rgb(241, 14, 14); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+   
+}
+.logo{
+    width: 350px;
+    margin-bottom: 16px;
+}
+
+.search-bar{
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.search-bar:hover{
+    box-shadow: 0px 0px 5px 0px #b5b5b5;
+}
+.search-bar i{
+    font-size: 22px;
+    color: gray;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.search-bar input{
+    flex-grow: 1;
+    height: 33px;
+    margin-right: 12px;
+    border: none;
+}
+ .search-btn{
+     margin-top: 20px;
+     /* border: 1px solid red; */
+ }
+
+ .search-btn button{
+     height: 45px;
+     font-size: 17px;
+     border: none;
+     border-radius: 6px;
+     margin-left: 12px;
+     color: black;
+     background-color: f#f2f3f4;
+ }
+
+ .search-btn button:hover{
+     border: 1px solid lightgray;
+     cursor: pointer;
+ }
+
+ .google-search-btn{
+     width: 160px;
+   
+ }
+
+ .lucky-btn{
+    width: 160px;
+}
+
+.short-vdeos{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.short-vdeos p a:hover{
+    text-decoration: underline;
+}
+.language p a:hover{
+    text-decoration: underline;
+}
+
+.language p a{
+   color: blue;
+}
+.language p a:hover{
+    text-decoration: underline;
+}
+
+/* --------------FOOTER------------- */
+
+footer {
+    /* background-color: #f2f2f2; */
+    height: 100px ;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.upper-footer{
+    background-color: #f2f2f2;
+    height: 50%;
+    border-bottom: 1px solid lightgray;
+}
+
+.upper-footer p{
+    color: gray;
+    font-size: 20px;
+    margin-left: 34px;
+
+}
+
+
+.lower-footer{
+    background-color: #f2f2f2;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.lower-footer ul li a{
+    font-size: 20px;
+    color: gray;
+    
+}
+
+.lower-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.lower-left-footer {
+    display: flex;
+}
+
+.lower-left-footer li {
+    margin-left: 10px;
+   
+}
+
+
+.lower-right-footer {
+    display: flex;
+}
+
+.lower-right-footer li {
+    margin-left: 9px;
+}
+
+#lower-footer ul li  a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 650px) {
+
+    /* Navbar */
+
+    .navbar ul {
+        font-size: 10px;
+    }
+
+    footer{
+        height: 120px;
+    }
+
+    .lower-footer{
+        height: 100px;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

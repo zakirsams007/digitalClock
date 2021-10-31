@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color:#a5f0cc;
+}
+
+#todo-app{
+    width: 500px;
+    background: #a5e9f0;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50 -50);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+               rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#add-todo{
+    height: 80px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#add-todo input{
+    flex: 1;
+    background: #a1d9cf;
+    border: 0.5px solid #d11141;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+}
+#add-todo button{
+    border: 0;
+    background: #d11141;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    outline: 0;
+    margin-right: 15px;
+    cursor: pointer;   
+}
+
+#todo-list{
+    list-style: none;
+   
+}
+
+#todo-list li{
+    display: flex;
+    border-bottom: gray 1px dashed;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#todo-list li:hover {
+    transform: skew(-10deg);
+    background: #a1d9cf;
+  }
+
+  .todo-content{
+      text-decoration: none;
+      color: #d11141;
+  }
+ 
+  .todo-content i{
+      margin-right: 7px;
+  }
+
+  .trash{
+      color:#000;
+  }
+ 
+  .trash:hover{
+      color: red;
+  }
+
+  .todo-content.done .todo-text{
+      text-decoration: line-through;
+  }
+
+  .todo-content.done i{
+      color: #093879;
+  }
+
+  .heading{
+      margin-bottom: 30px ;
+      text-align: center;
+      color: brown;
+  }
+  #todo-list li.no-todo {
+    justify-content: center;
+    color: #d11141;
+  }

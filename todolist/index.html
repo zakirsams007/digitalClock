@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sytle.css">
+     
+    <link 
+    rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Todo-app</title>
+
+</head>
+<body>
+   
+    <div id="todo-app">
+    
+        <h1 class="heading"> ToDo-List </h1>
+
+        <form id="add-todo" onsubmit="addTodo(event)">
+
+            <button>
+                <i class="fas fa-plus"></i>
+            </button>
+
+            <input type="text"
+                   id="todo-text"
+                   placeholder="Enter ur todo list",
+                   autocomplete="off" />
+        </form>
+
+       <ul id="todo-list">
+           <!-- <li>
+               <a href="#" class="todo-content">
+                <i class="far fa-circle"></i>
+                <span class="todo-text">Todo text Here </span>
+               </a>
+
+               <a href="#" class="trash" >
+                <i class="far fa-trash-alt"></i>
+               </a>
+           </li>
+
+           <li>
+            <a href="#"class="todo-content" >
+             <i class="far fa-circle" ></i>
+             <span class="todo-text">Todo text Here </span>
+            </a>
+
+            <a href="#" class="trash">
+             <i class="far fa-trash-alt"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="todo-content done">
+                <i class="fas fa-check-circle" ></i>
+             <span class="todo-text">Todo text Here </span>
+            </a>
+
+            <a href="#"class="trash">
+             <i class="far fa-trash-alt"></i>
+            </a>
+        </li>    -->
+       </ul>
+    </div>
+
+
+    
+
+
+    <script src="./app.js"> <script/>
+
+</body>
+</html>
