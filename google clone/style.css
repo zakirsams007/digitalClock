@@ -15,8 +15,8 @@ a{
 }
 
 body{
+    /* border: 2px solid blue; */
     font-family: sans-serif;
-    /* border: 3px solid red; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,11 +26,10 @@ body{
 /*---------------- HEADER--------------- */
 
 header{
- 
-    height: 65px;
+    /* border: 1px solid black; */
+    height: 40px;
 }
 .navbar{
-  
     height: 100%;
     width: 100%;
 }
@@ -40,7 +39,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .navbar ul li {
@@ -99,24 +98,26 @@ header{
 
 
 .wrapper{
+
     /* border: 1px solid rgb(241, 14, 14); */
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 250px;
+    margin-bottom: 0px;
    
 }
 .logo{
-    width: 350px;
-    margin-bottom: 16px;
+    width: 200px;
+    margin-bottom: 17px;
 }
 
 .search-bar{
     border: 1px solid lightgray;
-    width: 600px;
-    height: 40px;
+    width: 800px;
+    height: 60px;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -196,9 +197,8 @@ header{
 
 /* --------------FOOTER------------- */
 
-footer {
-    /* background-color: #f2f2f2; */
-    height: 100px ;
+.footer-div{
+    height: 200px;
 }
 
 #footer{
@@ -257,26 +257,9 @@ footer {
 
 #lower-footer ul li  a:hover{
     text-decoration: underline;
-}
+} 
 
-@media only screen and (max-width: 650px) {
 
-    /* Navbar */
-
-    .navbar ul {
-        font-size: 10px;
-    }
-
-    footer{
-        height: 120px;
-    }
-
-    .lower-footer{
-        height: 100px;
-        flex-direction: column;
-    }
-
-}
 
 
 
